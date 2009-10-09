@@ -2,7 +2,7 @@
 # Project: libzcloud
 # Version: 1.0alpha
 zcloud_store_newv cfunction using_libzcloud/creating_a_store.html
-basename cmember using_libzcloud/module_info.html
+zcloud_memory_upload_procuer cfunction using_libzcloud/upload_producers.html
 paramspecs cmember using_libzcloud/module_info.html
 DownloadConsumer.write method api/download_consumer.html
 module cmember using_libzcloud/module_info.html
@@ -19,6 +19,7 @@ zcloud_store_new cfunction using_libzcloud/creating_a_store.html
 xml_path cmember using_libzcloud/module_info.html
 DownloadConsumer class api/download_consumer.html
 type cmember using_libzcloud/module_info.html
+basename cmember using_libzcloud/module_info.html
 ZCloudStore.delete method api/store.html
 ZCloudStore.download method api/store.html
 zcloud_get_store_plugin_by_prefix cfunction using_libzcloud/module_info.html
@@ -36,8 +37,13 @@ ListConsumer.got_result method api/list_consumer.html
 ListConsumer class api/list_consumer.html
 zcloud_growing_memory_download_consumer_get_contents_as_string cfunction using_libzcloud/download_consumers.html
 DownloadConsumer.reset method api/download_consumer.html
+zcloud_fd_list_consumer cfunction using_libzcloud/list_consumers.html
+zcloud_slist_list_consumer_grab_contents cfunction using_libzcloud/list_consumers.html
 ZCloudStore.create method api/store.html
 zcloud_growing_memory_download_consumer_get_contents cfunction using_libzcloud/download_consumers.html
 ZCloudStore.list method api/store.html
+zcloud_fd_upload_procuer cfunction using_libzcloud/upload_producers.html
 UploadProducer.reset method api/upload_producer.html
+zcloud_fd_download_consumer cfunction using_libzcloud/download_consumers.html
 module_path cmember using_libzcloud/module_info.html
+zcloud_slist_list_consumer cfunction using_libzcloud/list_consumers.html
